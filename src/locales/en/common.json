@@ -1,0 +1,193 @@
+{
+  "appName": "EduReach",
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "events": "Events",
+    "admissions": "Admissions",
+    "announcements": "Announcements"
+  },
+  "auth": {
+    "login": "Login",
+    "logout": "Logout",
+    "dashboard": "Dashboard",
+    "profile": "Profile",
+    "settings": "Settings"
+  },
+  "loading": "Loading..."
+  ,
+  "panels": {
+    "admin": "Admin Panel",
+    "student": "Student Panel",
+    "parent": "Parent Panel"
+  },
+  "menu": {
+    "admin": {
+      "dashboard": "Dashboard",
+      "students": "Student Management",
+      "teachers": "Teacher Management",
+      "parents": "Parent Management",
+      "admissions": "Admissions",
+      "events": "Events",
+      "announcements": "Announcements",
+      "feeManagement": "Fee Management",
+      "library": "Library",
+      "settings": "Settings"
+    },
+    "teacher": {
+      "myStudents": "My Students",
+      "attendance": "Attendance",
+      "downloadSummary": "Download Summary",
+      "addAssignment": "Add Assignment",
+      "reviewSubmissions": "Review Submissions",
+      "lmsStatus": "LMS Status",
+      "leaveReview": "Leave Review"
+    },
+    "student": {
+      "lmsStatus": "LMS Status",
+      "myAttendance": "My Attendance",
+      "assignments": "Assignments",
+      "classTeacher": "Class Teacher"
+    },
+    "parent": {
+      "studentAttendance": "Student Attendance",
+      "studentAssignments": "Student Assignments",
+      "classTeachers": "Class Teachers",
+      "paymentDashboard": "Payment Dashboard",
+      "leaveDashboard": "Leave Dashboard",
+      "paymentHistory": "Payment History",
+      "calendar": "School Calendar"
+    }
+  }
+  ,
+  "student": {
+    "attendance": {
+      "title": "My Attendance",
+      "reportTitle": "Student Attendance Report",
+      "month": "Month",
+      "year": "Year",
+      "loading": "Loading attendance...",
+      "class": "Class",
+      "pdf": "PDF",
+      "csv": "CSV",
+      "totalDays": "Total Days",
+      "presents": "Presents",
+      "absents": "Absents",
+      "percent": "% Attendance",
+      "date": "Date",
+      "status": "Status",
+      "present": "Present",
+      "absent": "Absent"
+    }
+  }
+  ,
+  "admin": {
+    "stats": {
+      "totalStudents": "Total Students",
+      "totalTeachers": "Total Teachers",
+      "totalParents": "Total Parents",
+      "activeEvents": "Active Events"
+    },
+    "recentActivities": "Recent Activities",
+    "activities": {
+      "newAdmission": "New admission application received",
+      "sportsDay": "Annual Sports Day scheduled for next week",
+      "holiday": "Holiday announcement published",
+      "time": { "2h": "2 hours ago", "4h": "4 hours ago", "1d": "1 day ago" }
+    },
+    "students": { "add": "+ Add Student" },
+    "teachers": {
+      "bulkUpload": "Bulk Upload",
+      "addSingle": "Add Single",
+      "assignSection": "Assign Section",
+      "all": "All Teachers"
+    }
+  }
+  ,
+  "parent": {
+    "attendance": {
+      "title": "Children’s Attendance",
+      "reportTitle": "Attendance Report",
+      "month": "Month",
+      "year": "Year",
+      "loading": "Loading attendance...",
+      "class": "Class",
+      "pdf": "PDF",
+      "csv": "CSV",
+      "totalDays": "Total Days",
+      "presents": "Presents",
+      "absents": "Absents",
+      "percent": "% Attendance",
+      "date": "Date",
+      "status": "Status",
+      "present": "Present",
+      "absent": "Absent"
+    },
+    "assignments": {
+      "title": "Your Child’s Assignments",
+      "none": "No assignments found for your child.",
+      "dueDate": "Due Date",
+      "late": "Late",
+      "onTime": "On Time",
+      "marks": "Marks",
+      "feedback": "Feedback",
+      "noFeedback": "No feedback",
+      "submitted": "Submitted",
+      "closed": "Submission closed",
+      "notSubmitted": "Not yet submitted"
+    },
+    "fees": {
+      "loading": "Loading fee structures...",
+      "none": "No fee structure assigned yet.",
+      "title": "Your Children's Fee Summary",
+      "class": "Class",
+      "academicYear": "Academic Year",
+      "totalFee": "Total Fee",
+      "discount": "Discount",
+      "paid": "Paid",
+      "remaining": "Remaining",
+      "fullyPaidOn": "Fully Paid on",
+      "enterAmount": "Enter Amount to Pay",
+      "max": "Max",
+      "minAmount": "Minimum amount is ₹1",
+      "paymentMethod": "Payment Method",
+      "online": "Online",
+      "offline": "Cash at School",
+      "processing": "Processing...",
+      "requestCash": "Request Cash Payment",
+      "payOnline": "Pay Online",
+      "offlineHow": "How Offline Payment Works:",
+      "step1": "Request will be sent to school office",
+      "step2": "Visit school with exact amount (₹{{amount}})",
+      "step3": "Pay cash at the front desk",
+      "step4": "Receipt will be sent to your email after verification",
+      "history": "Payment History",
+      "paidOn": "paid on",
+      "receipt": "Receipt #",
+      "status": "Status",
+      "method": "Method",
+      "viewReceipt": "View Receipt",
+      "notAvailable": "Fee structure not available."
+    }
+    ,
+    "leave": {
+      "title": "Leave Dashboard",
+      "apply": "Apply for Leave",
+      "from": "From Date",
+      "to": "To Date",
+      "reason": "Reason",
+      "placeholder": "Explain the reason for leave...",
+      "submit": "Submit Application",
+      "yourApplications": "Your Leave Applications",
+      "none": "No leave applications found.",
+      "status": "Status",
+      "submittedOn": "Submitted On",
+      "reviewedBy": "Reviewed By",
+      "rejectionReason": "Rejection Reason",
+      "notFound": "Student not found for this parent",
+      "statuses": { "approved": "Approved", "rejected": "Rejected", "pending": "Pending" }
+    }
+  }
+}
+
+

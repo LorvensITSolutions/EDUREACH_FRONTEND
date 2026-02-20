@@ -1,0 +1,53 @@
+/* Custom scrollbar styles for AdminChatbotWidget */
+.chatbot-messages-container {
+  scrollbar-width: thin;
+  scrollbar-color: #d1d5db #f3f4f6;
+}
+
+.chatbot-messages-container::-webkit-scrollbar {
+  width: 6px;
+}
+
+.chatbot-messages-container::-webkit-scrollbar-track {
+  background: #f3f4f6;
+  border-radius: 3px;
+}
+
+.chatbot-messages-container::-webkit-scrollbar-thumb {
+  background: #d1d5db;
+  border-radius: 3px;
+}
+
+.chatbot-messages-container::-webkit-scrollbar-thumb:hover {
+  background: #9ca3af;
+}
+
+/* Ensure proper scrolling behavior */
+.chatbot-messages-container {
+  overflow-y: auto;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Mobile optimizations */
+@media (max-width: 768px) {
+  .chatbot-messages-container {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  
+  .chatbot-messages-container::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* Smooth scrolling for better UX */
+.chatbot-messages-container {
+  scroll-behavior: smooth;
+}
+
+/* Prevent text selection on scrollbar */
+.chatbot-messages-container::-webkit-scrollbar-thumb {
+  -webkit-user-select: none;
+  user-select: none;
+}

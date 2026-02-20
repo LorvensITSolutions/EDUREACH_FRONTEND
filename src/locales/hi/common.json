@@ -1,0 +1,192 @@
+{
+  "appName": "EduReach",
+  "nav": {
+    "home": "होम",
+    "about": "परिचय",
+    "events": "कार्यक्रम",
+    "admissions": "प्रवेश",
+    "announcements": "घोषणाएँ"
+  },
+  "auth": {
+    "login": "लॉगिन",
+    "logout": "लोगआउट",
+    "dashboard": "डैशबोर्ड",
+    "profile": "प्रोफ़ाइल",
+    "settings": "सेटिंग्स"
+  },
+  "loading": "लोड हो रहा है...",
+  "panels": {
+    "admin": "एडमिन पैनल",
+    "student": "छात्र पैनल",
+    "parent": "अभिभावक पैनल"
+  },
+  "menu": {
+    "admin": {
+      "dashboard": "डैशबोर्ड",
+      "students": "छात्र प्रबंधन",
+      "teachers": "शिक्षक प्रबंधन",
+      "parents": "अभिभावक प्रबंधन",
+      "admissions": "प्रवेश",
+      "events": "कार्यक्रम",
+      "announcements": "घोषणाएँ",
+      "feeManagement": "शुल्क प्रबंधन",
+      "library": "लाइब्रेरी",
+      "settings": "सेटिंग्स"
+    },
+    "teacher": {
+      "myStudents": "मेरे छात्र",
+      "attendance": "उपस्थिति",
+      "downloadSummary": "सारांश डाउनलोड",
+      "addAssignment": "असाइनमेंट जोड़ें",
+      "reviewSubmissions": "जमा की समीक्षा",
+      "lmsStatus": "एलएमएस स्थिति",
+      "leaveReview": "अवकाश समीक्षा"
+    },
+    "student": {
+      "lmsStatus": "एलएमएस स्थिति",
+      "myAttendance": "मेरी उपस्थिति",
+      "assignments": "असाइनमेंट",
+      "classTeacher": "कक्षा शिक्षक"
+    },
+    "parent": {
+      "studentAttendance": "विद्यार्थी उपस्थिति",
+      "studentAssignments": "विद्यार्थी असाइनमेंट",
+      "classTeachers": "कक्षा शिक्षक",
+      "paymentDashboard": "भुगतान डैशबोर्ड",
+      "leaveDashboard": "अवकाश डैशबोर्ड",
+      "paymentHistory": "भुगतान इतिहास",
+      "calendar": "स्कूल कैलेंडर"
+    }
+  }
+  ,
+  "student": {
+    "attendance": {
+      "title": "मेरी उपस्थिति",
+      "reportTitle": "विद्यार्थी उपस्थिति रिपोर्ट",
+      "month": "महीना",
+      "year": "वर्ष",
+      "loading": "उपस्थिति लोड हो रही है...",
+      "class": "कक्षा",
+      "pdf": "पीडीएफ",
+      "csv": "सीएसवी",
+      "totalDays": "कुल दिन",
+      "presents": "उपस्थित",
+      "absents": "अनुपस्थित",
+      "percent": "% उपस्थिति",
+      "date": "तारीख",
+      "status": "स्थिति",
+      "present": "उपस्थित",
+      "absent": "अनुपस्थित"
+    }
+  }
+  ,
+  "admin": {
+    "stats": {
+      "totalStudents": "कुल छात्र",
+      "totalTeachers": "कुल शिक्षक",
+      "totalParents": "कुल अभिभावक",
+      "activeEvents": "सक्रिय कार्यक्रम"
+    },
+    "recentActivities": "हाल की गतिविधियाँ",
+    "activities": {
+      "newAdmission": "नया प्रवेश आवेदन प्राप्त हुआ",
+      "sportsDay": "वार्षिक खेल दिवस अगले सप्ताह निर्धारित",
+      "holiday": "अवकाश घोषणा प्रकाशित",
+      "time": { "2h": "2 घंटे पहले", "4h": "4 घंटे पहले", "1d": "1 दिन पहले" }
+    },
+    "students": { "add": "+ छात्र जोड़ें" },
+    "teachers": {
+      "bulkUpload": "बल्क अपलोड",
+      "addSingle": "एक जोड़ें",
+      "assignSection": "सेक्शन असाइन करें",
+      "all": "सभी शिक्षक"
+    }
+  }
+  ,
+  "parent": {
+    "attendance": {
+      "title": "बच्चों की उपस्थिति",
+      "reportTitle": "उपस्थिति रिपोर्ट",
+      "month": "महीना",
+      "year": "वर्ष",
+      "loading": "उपस्थिति लोड हो रही है...",
+      "class": "कक्षा",
+      "pdf": "पीडीएफ",
+      "csv": "सीएसवी",
+      "totalDays": "कुल दिन",
+      "presents": "उपस्थित",
+      "absents": "अनुपस्थित",
+      "percent": "% उपस्थिति",
+      "date": "तारीख",
+      "status": "स्थिति",
+      "present": "उपस्थित",
+      "absent": "अनुपस्थित"
+    },
+    "assignments": {
+      "title": "आपके बच्चे के असाइनमेंट",
+      "none": "आपके बच्चे के लिए कोई असाइनमेंट नहीं मिला।",
+      "dueDate": "नियत तिथि",
+      "late": "देरी",
+      "onTime": "समय पर",
+      "marks": "अंक",
+      "feedback": "प्रतिक्रिया",
+      "noFeedback": "कोई प्रतिक्रिया नहीं",
+      "submitted": "जमा किया गया",
+      "closed": "जमा बंद",
+      "notSubmitted": "अभी तक जमा नहीं किया गया"
+    },
+    "fees": {
+      "loading": "फीस संरचना लोड हो रही है...",
+      "none": "अभी तक कोई फीस संरचना असाइन नहीं की गई है।",
+      "title": "आपके बच्चों की फीस सारांश",
+      "class": "कक्षा",
+      "academicYear": "शैक्षणिक वर्ष",
+      "totalFee": "कुल फीस",
+      "discount": "छूट",
+      "paid": "भुगतान",
+      "remaining": "शेष",
+      "fullyPaidOn": "पूरी तरह से भुगतान किया गया",
+      "enterAmount": "भुगतान करने के लिए राशि दर्ज करें",
+      "max": "अधिकतम",
+      "minAmount": "न्यूनतम राशि ₹1 है",
+      "paymentMethod": "भुगतान का तरीका",
+      "online": "ऑनलाइन",
+      "offline": "स्कूल में नकद",
+      "processing": "प्रसंस्करण...",
+      "requestCash": "कैश भुगतान का अनुरोध करें",
+      "payOnline": "ऑनलाइन भुगतान करें",
+      "offlineHow": "ऑफलाइन भुगतान कैसे काम करता है:",
+      "step1": "अनुरोध स्कूल कार्यालय को भेजा जाएगा",
+      "step2": "सटीक राशि (₹{{amount}}) के साथ स्कूल आएं",
+      "step3": "फ्रंट डेस्क पर नकद भुगतान करें",
+      "step4": "सत्यापन के बाद रसीद आपके ईमेल पर भेज दी जाएगी",
+      "history": "भुगतान का इतिहास",
+      "paidOn": "को भुगतान किया",
+      "receipt": "रसीद #",
+      "status": "स्थिति",
+      "method": "तरीका",
+      "viewReceipt": "रसीद देखें",
+      "notAvailable": "फीस संरचना उपलब्ध नहीं है।"
+    }
+    ,
+    "leave": {
+      "title": "अवकाश डैशबोर्ड",
+      "apply": "अवकाश के लिए आवेदन",
+      "from": "से दिनांक",
+      "to": "तक दिनांक",
+      "reason": "कारण",
+      "placeholder": "अवकाश का कारण बताएं...",
+      "submit": "आवेदन जमा करें",
+      "yourApplications": "आपके अवकाश आवेदन",
+      "none": "कोई अवकाश आवेदन नहीं मिला।",
+      "status": "स्थिति",
+      "submittedOn": "जमा करने की तारीख",
+      "reviewedBy": "समीक्षाकर्ता",
+      "rejectionReason": "अस्वीकृति का कारण",
+      "notFound": "इस अभिभावक के लिए छात्र नहीं मिला",
+      "statuses": { "approved": "स्वीकृत", "rejected": "अस्वीकृत", "pending": "लंबित" }
+    }
+  }
+}
+
+
