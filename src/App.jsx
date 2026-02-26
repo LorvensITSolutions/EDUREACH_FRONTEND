@@ -31,22 +31,24 @@ import LibraryDashboard from "./components/admin/Library/LibraryDashboard";
 import PaymentSuccessPage from "./components/Pages/Fee_payments/PaymentSuccessPage";
 import PaymentFailurePage from "./components/Pages/Fee_payments/PaymentFailurePage";
 import ProtectedRoute from "./components/Auth/ProtectedRoute";
+import PrivacyPolicy from './components/Pages/PrivacyPolicy';
+import ScrollToTop from "./components/ScrollToTop";
 import { Toaster } from "react-hot-toast";
 import { useUserStore } from './components/stores/useUserStore';
 // Component to conditionally render header and footer
 const AppLayout = ({ children }) => {
   const location = useLocation();
-  
+
   // Dashboard routes that shouldn't show footer
   const dashboardRoutes = [
     '/admin-dashboard',
-    '/teacher-dashboard', 
+    '/teacher-dashboard',
     '/student-dashboard',
     '/parent-dashboard',
     '/library-dashboard'
   ];
-  
-  const shouldShowFooter = !dashboardRoutes.some(route => 
+
+  const shouldShowFooter = !dashboardRoutes.some(route =>
     location.pathname.startsWith(route)
   );
 
@@ -98,6 +100,7 @@ function App() {
 
   return (
     <Router>
+      <ScrollToTop />
       <Toaster />
       <AppLayout>
         <Routes>
@@ -118,7 +121,7 @@ function App() {
           <Route path="/about/administrative-staff" element={<AdministrativeStaff />} />
           <Route path="/admissions" element={<Admissions />} />
           <Route path="/announcements" element={<Announcements />} />
-          
+
           {/* ✅ Protected Routes */}
           <Route
             path="/admin-dashboard"
@@ -173,6 +176,7 @@ function App() {
           {/* ✅ Payment Result Routes (No auth required) */}
           <Route path="/payment/success" element={<PaymentSuccessPage />} />
           <Route path="/payment/failure" element={<PaymentFailurePage />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         </Routes>
       </AppLayout>
     </Router>

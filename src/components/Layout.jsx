@@ -2,14 +2,14 @@ import React from 'react';
 import Sidebar from "./Sidebar";
 import NavigationCards from './NavigationCards';
 
-const Layout = ({ children, title, subtitle, showNavigationCards = false }) => {
+const Layout = ({ children, title, subtitle, showNavigationCards = false, showSidebar = true }) => {
   return (
     <div className="flex bg-background min-h-screen">
       {/* Sidebar - handles its own visibility (mobile button + desktop sidebar) */}
-      <Sidebar />
+      {showSidebar && <Sidebar />}
 
       {/* Main Content */}
-      <main className="flex-1 w-full lg:w-auto lg:ml-0">
+      <main className={`flex-1 w-full lg:w-auto ${showSidebar ? 'lg:ml-0' : ''}`}>
         <div className="p-3 sm:p-4 md:p-6 lg:p-8 max-w-7xl mx-auto pb-12 sm:pb-16">
           {/* Header */}
           <div className="text-center mb-6 sm:mb-8 animate-fade-in">
