@@ -113,7 +113,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-2 sm:space-x-3">
                 <Mail size={14} className="text-primary flex-shrink-0 sm:w-4 sm:h-4" />
-                <p className="text-gray-300 text-xs sm:text-sm">lorvensitsolutionspvtltd@gmail.com</p>
+                <p className="text-gray-300 text-xs sm:text-sm">yeslorvenssolutions@gmail.com</p>
               </div>
             </div>
           </div>
@@ -122,7 +122,7 @@ const Footer = () => {
         <div className="border-t border-gray-800 mt-6 sm:mt-8 pt-6 sm:pt-8">
           <div className="flex flex-col sm:flex-row justify-between items-center gap-3 sm:gap-4">
             <p className="text-gray-400 text-xs sm:text-sm text-center sm:text-left">
-              © {currentYear} EduReach. All rights reserved. • <Link to="/privacy-policy" className="hover:text-white transition-colors duration-200">Privacy Policy</Link>
+              © {currentYear} Yes Lorvens. All rights reserved. • <Link to="/privacy-policy" className="hover:text-white transition-colors duration-200">Privacy Policy</Link> • <Link to="/account-deletion" className="hover:text-white transition-colors duration-200">Account Deletion</Link>
             </p>
             <div className="flex items-center space-x-1">
               <span className="text-gray-400 text-xs sm:text-sm">Made with</span>

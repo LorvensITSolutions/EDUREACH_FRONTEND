@@ -32,6 +32,7 @@ import PaymentSuccessPage from "./components/Pages/Fee_payments/PaymentSuccessPa
 import PaymentFailurePage from "./components/Pages/Fee_payments/PaymentFailurePage";
 import ProtectedRoute from "./components/Auth/ProtectedRoute";
 import PrivacyPolicy from './components/Pages/PrivacyPolicy';
+import AccountDeletion from './components/Pages/AccountDeletion';
 import ScrollToTop from "./components/ScrollToTop";
 import { Toaster } from "react-hot-toast";
 import { useUserStore } from './components/stores/useUserStore';
@@ -177,6 +178,7 @@ function App() {
           <Route path="/payment/success" element={<PaymentSuccessPage />} />
           <Route path="/payment/failure" element={<PaymentFailurePage />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="/account-deletion" element={<AccountDeletion />} />
         </Routes>
       </AppLayout>
     </Router>
